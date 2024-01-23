@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 public class StreamTest {
     public static void main(String[] args) {
+        //find the employees which are greater than age 30
         List<Employee> employees = new ArrayList<>();
         Employee e1 = new Employee("Ajay",35);
         Employee e2 = new Employee("Vijay",5);

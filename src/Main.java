@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
+        //find the substring of repeating alphabet
         String str = "ABCDEFGABEF";
         int x = 10;
         HashSet<Character> set=new HashSet<>();
